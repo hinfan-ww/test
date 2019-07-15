@@ -4,7 +4,7 @@
   "description": "* This is a readme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r esm index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/hinfan-ww/test#readme",
   "dependencies": {
-    "bluebird": "^3.5.5"
-  }
+    "bluebird": "^3.5.5",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {}
 }
